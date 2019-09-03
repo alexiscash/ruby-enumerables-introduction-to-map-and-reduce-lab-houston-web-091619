@@ -22,9 +22,7 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, total=0)
-  for i in start...array.length do 
-    total += array[i]
-  end
+  array.each { |num| total += num }
   total
 end
 

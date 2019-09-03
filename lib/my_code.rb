@@ -32,7 +32,7 @@ end
 
 
 
-puts reduce_to_total([5,7,16,28], 1)
+puts reduce_to_total([5,7,16,28], 2)
 
 
 

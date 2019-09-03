@@ -1,6 +1,6 @@
 # My Code here....
 def map_to_negativize(array)
-  new_array
+  new_array = []
   array.each { |elem| new_array << elem *= -1 }
   array
 end

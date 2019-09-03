@@ -11,7 +11,9 @@ end
 
 def map_to_double(array)
   new_array =[]
-  array.each { |elem| new_array << elem * 2
+  array.each { |elem| new_array << elem * 2 }
+  new_array
+end
 
 
 

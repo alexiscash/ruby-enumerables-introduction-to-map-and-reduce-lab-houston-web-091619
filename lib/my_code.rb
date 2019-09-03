@@ -26,7 +26,9 @@ def reduce_to_total(array, total=0)
   total
 end
 
-
+def reduce_to_all_true?(array)
+  array.each { |elem| return false if elem }
+  true
 
 
 puts reduce_to_total([5,7,16,28], 2)

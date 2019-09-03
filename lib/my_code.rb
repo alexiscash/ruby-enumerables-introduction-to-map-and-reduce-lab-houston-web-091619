@@ -31,6 +31,10 @@ def reduce_to_all_true(array)
   true
 end
 
+def reduce_to_any_true(array)
+  array.each { |elem| return true if elem }
+  false
+
 
 puts reduce_to_all_true([5,nil,16,28])
 

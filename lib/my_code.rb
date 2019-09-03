@@ -26,13 +26,13 @@ def reduce_to_total(array, total=0)
   total
 end
 
-def reduce_to_all_true?(array)
+def reduce_to_all_true(array)
   array.each { |elem| return false if not elem }
   true
 end
 
 
-puts reduce_to_all_true?([5,nil,16,28])
+puts reduce_to_all_true([5,nil,16,28])
 
 
 

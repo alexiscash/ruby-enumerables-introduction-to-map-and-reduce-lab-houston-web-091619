@@ -2,7 +2,7 @@
 def map_to_negativize(array)
   new_array = []
   array.each { |elem| new_array << elem *= -1 }
-  array
+  new_array
 end
 
 puts map_to_negativize([1,2,3,4])

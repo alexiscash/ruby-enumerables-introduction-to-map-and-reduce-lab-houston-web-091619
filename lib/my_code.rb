@@ -23,8 +23,8 @@ end
 
 def reduce_to_total(array, start=0)
   total = 0 
-  start..array.length do 
-    |elem| total += elem 
+  for i in start..array.length do 
+    total += array[i] 
   end
   total
 end

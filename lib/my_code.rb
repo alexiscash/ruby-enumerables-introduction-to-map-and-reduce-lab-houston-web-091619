@@ -24,7 +24,7 @@ end
 def reduce_to_total(array, start=0)
   total = 0 
   for i in start...array.length do 
-    puts array[i]
+    puts total += array[i]
   end
   total
 end

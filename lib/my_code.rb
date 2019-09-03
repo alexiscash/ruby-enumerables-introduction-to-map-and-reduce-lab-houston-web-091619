@@ -24,7 +24,7 @@ end
 def reduce_to_total(array, start=0)
   total = 0 
   for i in start..array.length do 
-    total += array[i] 
+    puts i
   end
   total
 end
@@ -32,4 +32,7 @@ end
 
 
 
-puts map_to_negativize([1,2,3,4])
+puts reduce_to_total([1,2,3,4])
+
+
+

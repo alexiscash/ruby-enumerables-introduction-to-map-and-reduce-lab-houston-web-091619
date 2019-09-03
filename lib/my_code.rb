@@ -32,7 +32,7 @@ def reduce_to_all_true?(array)
 end
 
 
-puts reduce_to_all_true?([5,7,16,28])
+puts reduce_to_all_true?([5,nil,16,28])
 
 
 

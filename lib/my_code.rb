@@ -1,6 +1,4 @@
 # My Code here....
 def map_to_negativize(array)
-  for i in array do
-    i *= -1
-  end
+  array.each |elem| elem *= -1
 end

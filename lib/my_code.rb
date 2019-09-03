@@ -36,7 +36,5 @@ def reduce_to_any_true(array)
   false
 end
 
-puts reduce_to_all_true([5,nil,16,28])
-
 
 
